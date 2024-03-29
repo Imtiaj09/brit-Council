@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="britcouncil_ahmimtiaj.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Button fx:id="manageExamfxid" layoutX="1.0" layoutY="2.0" mnemonicParsing="false" onAction="#manageExamOnClick" text="Manage Exam Schedules ">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="examRegistrationfxid" layoutX="1.0" layoutY="23.0" mnemonicParsing="false" onAction="#examRegistrationOnClick" prefHeight="15.0" prefWidth="86.0" text="Exam Registration">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="venueCoordinatorfxid" layoutX="2.0" layoutY="42.0" mnemonicParsing="false" onAction="#venueCoordinatorOnClick" prefHeight="15.0" prefWidth="85.0" text="Venue Coordinator">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="studentResultfxml" layoutX="2.0" layoutY="61.0" mnemonicParsing="false" onAction="#studentResultOnClick" prefHeight="15.0" prefWidth="85.0" text="Student Result ">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="feedbackfxid" layoutX="2.0" layoutY="80.0" mnemonicParsing="false" onAction="#feedbackOnClick" prefHeight="15.0" prefWidth="85.0" text="Feedbacks">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+      <Button fx:id="stakeholderfxid" layoutX="2.0" layoutY="100.0" mnemonicParsing="false" onAction="#stakeholderOnClick" prefHeight="15.0" prefWidth="84.0" text="Manage Stakeholder">
+         <font>
+            <Font size="7.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
