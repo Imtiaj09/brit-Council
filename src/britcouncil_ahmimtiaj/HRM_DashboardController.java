@@ -20,6 +20,14 @@ public class HRM_DashboardController implements Initializable {
 
     @FXML
     private Button recruitmentfxid;
+    @FXML
+    private Button onboardingfxid;
+    @FXML
+    private Button employeeRecordsfxid;
+    @FXML
+    private Button hrPolicyfxid;
+    @FXML
+    private Button talentfxid;
 
     /**
      * Initializes the controller class.
@@ -31,6 +39,22 @@ public class HRM_DashboardController implements Initializable {
 
     @FXML
     private void recruitmentOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void onboardingOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void employeeRecordsOnClick(ActionEvent event) {
+    }
+
+    @FXML
+    private void hrPolicyOnClik(ActionEvent event) {
+    }
+
+    @FXML
+    private void talentOnClick(ActionEvent event) {
     }
     
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="britcouncil_ahmimtiaj.Employee_Record_Management_HRM_DashboardController">
+   <children>
+      <Text layoutX="183.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee Record Management Dashboard" />
+      <TableView layoutX="9.0" layoutY="43.0" prefHeight="347.0" prefWidth="580.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -8,9 +8,9 @@
    <children>
       <Text layoutX="255.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HRM Dashboard" />
       <Button fx:id="recruitmentfxid" layoutX="30.0" layoutY="65.0" mnemonicParsing="false" onAction="#recruitmentOnClick" text="Recruitment" />
-      <Button layoutX="30.0" layoutY="106.0" mnemonicParsing="false" text="Onboarding and Training" />
-      <Button layoutX="29.0" layoutY="146.0" mnemonicParsing="false" text="Management Employee Records " />
-      <Button layoutX="29.0" layoutY="184.0" mnemonicParsing="false" text="HR Policy Development" />
-      <Button layoutX="30.0" layoutY="222.0" mnemonicParsing="false" text="Talent Management and Succession Planning" />
+      <Button fx:id="onboardingfxid" layoutX="30.0" layoutY="106.0" mnemonicParsing="false" onAction="#onboardingOnClick" text="Onboarding and Training" />
+      <Button fx:id="employeeRecordsfxid" layoutX="29.0" layoutY="146.0" mnemonicParsing="false" onAction="#employeeRecordsOnClick" text="Management Employee Records " />
+      <Button fx:id="hrPolicyfxid" layoutX="29.0" layoutY="184.0" mnemonicParsing="false" onAction="#hrPolicyOnClik" text="HR Policy Development" />
+      <Button fx:id="talentfxid" layoutX="30.0" layoutY="222.0" mnemonicParsing="false" onAction="#talentOnClick" text="Talent Management and Succession Planning" />
    </children>
 </AnchorPane>
