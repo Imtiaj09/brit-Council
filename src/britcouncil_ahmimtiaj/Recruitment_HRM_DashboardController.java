@@ -6,20 +6,14 @@ package britcouncil_ahmimtiaj;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 
 /**
  * FXML Controller class
  *
  * @author a.h.m.imtiaj
  */
-public class HRM_DashboardController implements Initializable {
-
-    @FXML
-    private Button recruitmentfxid;
+public class Recruitment_HRM_DashboardController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -28,9 +22,5 @@ public class HRM_DashboardController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-
-    @FXML
-    private void recruitmentOnClick(ActionEvent event) {
-    }
     
 }
