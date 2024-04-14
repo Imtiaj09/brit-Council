@@ -11,17 +11,20 @@
    <children>
       <Text layoutX="205.0" layoutY="15.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recruitment Dashboard" />
       <Text layoutX="138.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employe Name:" />
-      <TextField layoutX="276.0" layoutY="46.0" />
+      <TextField fx:id="rdEmlopyeNamefxid" layoutX="276.0" layoutY="46.0" />
       <Text layoutX="139.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Education Background: " />
-      <TextField layoutX="276.0" layoutY="88.0" />
+      <TextField fx:id="rdEducationfxid" layoutX="276.0" layoutY="88.0" />
       <Text layoutX="140.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Previous Experience:" />
-      <TextField layoutX="277.0" layoutY="127.0" />
-      <Button layoutX="329.0" layoutY="164.0" mnemonicParsing="false" text="Submit" />
-      <TableView layoutX="-1.0" layoutY="207.0" prefHeight="200.0" prefWidth="600.0">
+      <TextField fx:id="experiencefxid" layoutX="277.0" layoutY="127.0" />
+      <Button layoutX="281.0" layoutY="164.0" mnemonicParsing="false" onAction="#rdSubmitOnclick" text="Submit" />
+      <TableView fx:id="rdTablefxid" layoutX="-1.0" layoutY="207.0" prefHeight="200.0" prefWidth="600.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn fx:id="rdEmployeeTablefxid" prefWidth="191.0" text="Employee Name" />
+          <TableColumn fx:id="rdEducationTablefxid" minWidth="1.0" prefWidth="274.0" text="Education Background" />
+            <TableColumn fx:id="rdExperienceTablefxid" minWidth="1.0" prefWidth="134.0" text="Previous Experience" />
         </columns>
       </TableView>
+      <Button layoutX="385.0" layoutY="164.0" mnemonicParsing="false" onAction="#rdShowOnClick" text="Show" />
+      <Button layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#rdBackOnClick" text="Back" />
    </children>
 </AnchorPane>
