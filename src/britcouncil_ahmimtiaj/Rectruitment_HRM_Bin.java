@@ -8,47 +8,55 @@ package britcouncil_ahmimtiaj;
  *
  * @author a.h.m.imtiaj
  */
-public class Rectruitment_HRM_Bin {
-    private String EmlopyeName;
-    private String Education;
-    private String Experience;
+class Rectruitment_HRM_Bin {
+    private String employeeName;
+    private String employeeEducation;
+    private String experience;
+    private String joiningDate;
 
-    public Rectruitment_HRM_Bin(String EmlopyeName, String Education, String Experience) {
-        this.EmlopyeName = EmlopyeName;
-        this.Education = Education;
-        this.Experience = Experience;
+    public Rectruitment_HRM_Bin(String employeeName, String employeeEducation, String experience, String joiningDate) {
+        this.employeeName = employeeName;
+        this.employeeEducation = employeeEducation;
+        this.experience = experience;
+        this.joiningDate = joiningDate;
     }
 
-    public String getEmlopyeName() {
-        return EmlopyeName;
+    public String getEmployeeName() {
+        return employeeName;
     }
 
-    public void setEmlopyeName(String EmlopyeName) {
-        this.EmlopyeName = EmlopyeName;
+    public void setEmployeeName(String employeeName) {
+        this.employeeName = employeeName;
     }
 
-    public String getEducation() {
-        return Education;
+    public String getEmployeeEducation() {
+        return employeeEducation;
     }
 
-    public void setEducation(String Education) {
-        this.Education = Education;
+    public void setEmployeeEducation(String employeeEducation) {
+        this.employeeEducation = employeeEducation;
     }
 
     public String getExperience() {
-        return Experience;
+        return experience;
     }
 
-    public void setExperience(String Experience) {
-        this.Experience = Experience;
+    public void setExperience(String experience) {
+        this.experience = experience;
+    }
+
+    public String getJoiningDate() {
+        return joiningDate;
+    }
+
+    public void setJoiningDate(String joiningDate) {
+        this.joiningDate = joiningDate;
     }
 
     @Override
     public String toString() {
-        return "Rectruitment_HRM_Bin{" + "EmlopyeName=" + EmlopyeName + ", Education=" + Education + ", Experience=" + Experience + '}';
+        return "Rectruitment_HRM_Bin{" + "employeeName=" + employeeName + ", employeeEducation=" + employeeEducation + ", experience=" + experience + ", joiningDate=" + joiningDate + '}';
     }
- 
-  
-       
+    
     
 }

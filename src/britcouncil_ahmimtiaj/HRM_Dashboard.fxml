@@ -7,10 +7,10 @@
 <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="britcouncil_ahmimtiaj.HRM_DashboardController">
    <children>
       <Text layoutX="255.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HRM Dashboard" />
-      <Button fx:id="recruitmentfxid" layoutX="30.0" layoutY="65.0" mnemonicParsing="false" onAction="#recruitmentOnClick" text="Recruitment" />
-      <Button fx:id="onboardingfxid" layoutX="30.0" layoutY="106.0" mnemonicParsing="false" onAction="#onboardingOnClick" text="Onboarding and Training" />
-      <Button fx:id="employeeRecordsfxid" layoutX="29.0" layoutY="146.0" mnemonicParsing="false" onAction="#employeeRecordsOnClick" text="Management Employee Records " />
-      <Button fx:id="hrPolicyfxid" layoutX="29.0" layoutY="184.0" mnemonicParsing="false" onAction="#hrPolicyOnClik" text="HR Policy Development" />
+      <Button fx:id="recruitmentfxid" layoutX="30.0" layoutY="65.0" mnemonicParsing="false" onAction="#recruitmentOnClick" prefHeight="27.0" prefWidth="266.0" text="Recruitment" />
+      <Button fx:id="onboardingfxid" layoutX="30.0" layoutY="106.0" mnemonicParsing="false" onAction="#onboardingOnClick" prefHeight="27.0" prefWidth="266.0" text="Onboarding and Training" />
+      <Button fx:id="employeeRecordsfxid" layoutX="29.0" layoutY="146.0" mnemonicParsing="false" onAction="#employeeRecordsOnClick" prefHeight="27.0" prefWidth="266.0" text="Management Employee Records " />
+      <Button fx:id="hrPolicyfxid" layoutX="29.0" layoutY="184.0" mnemonicParsing="false" onAction="#hrPolicyOnClik" prefHeight="27.0" prefWidth="266.0" text="HR Policy Development" />
       <Button fx:id="talentfxid" layoutX="30.0" layoutY="222.0" mnemonicParsing="false" onAction="#talentOnClick" text="Talent Management and Succession Planning" />
    </children>
 </AnchorPane>
